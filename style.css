@@ -5,15 +5,15 @@ body {
 }
 
 #logo {
-    margin: 0px;
-    padding: 8px;
-    font-family: "Fredoka One", sans-serif;
-    inline-size: 16%;
-    text-shadow: 
-    1px 1px 0px black,
-    -1px 1px 0px black,
-    1px -1px 0px black,
-    -1px -1px 0px black;   
+    margin: 150px;
+    padding: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    inline-size: 40%;
+    text-shadow:
+    1px 1px 0px black
+    -1px 1px 0px black
+    1px -1px 0px black
+    -1px -1px 0px black;  
 }
 
 ul {
@@ -21,7 +21,7 @@ ul {
 }
 
 body > header {
-    background-color: orange;
+    background-color: yellowgreen;
     color: white;
     display: flex;
     block-size: 12vh;
@@ -36,7 +36,12 @@ body > header {
 
 #nav-ul > li {
     padding: 8px;
-    margin: 16px;
+    margin: 0px;
+}
+
+#filter1 {
+    color: blue;
+    
 }
 body > header > nav > ul {
     list-style: none;
@@ -63,7 +68,7 @@ h2 {
     text-align: center;
 }
 body > footer {
-    background-color: orange;
+    background-color: yellowgreen;
     display: flex;
 }
 
@@ -88,9 +93,41 @@ img {
 
 #main-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #main-content > div {
-    inline-size: 60%;
+    inline-size: 80%;
+}
+
+#facts-title {
+    font-size: larger;
+    color: green;
+    background-color: yellowgreen;
+}
+
+#foods {
+    font-size: larger;
+    color: green;
+    background-color: yellowgreen;
+}
+
+#readtime {
+    font-size: medium;
+}
+#hobbies-title {
+    font-size: larger;
+    color: green;
+    background-color: yellowgreen;
+}
+#footer-logo {
+    font-size: larger;
+    color: green;
+}
+
+#authour {
+    font-size: large;
+}
+#lastposted {
+    font-size: medium;
 }
